@@ -26,3 +26,8 @@ def using_delete(instructors)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   instructors.delete("Steven")
 end
+
+def using_delete_at(famous_robots)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  famous_robots.delet_at(2)
+end
