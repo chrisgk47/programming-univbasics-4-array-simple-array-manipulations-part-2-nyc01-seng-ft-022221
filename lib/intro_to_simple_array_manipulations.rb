@@ -24,7 +24,7 @@ end
 
 def using_delete(instructors, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  puts instructors.delete("Steven")
+  instructors.delete("Steven")
   instructors
 end
 
