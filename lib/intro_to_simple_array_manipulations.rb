@@ -23,7 +23,7 @@ def using_flatten(instruments)
 end
 
 def using_delete(instructors, string)
-  instructors(string).delete("Steven")
+  instructors.delete("Steven")
   instructors
 end
 
